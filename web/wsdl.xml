@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding ="utf-8"?>
 
+<!-- create you wsdl in: http://marin.jb.free.fr/wsdl/ -->
+<!-- dar file wsdl: definitions>service>port>property "binding" : add "tns:" in first -->
+
 <definitions name="my service"
              targetNamespace="ir.test.mostafa.wsdl"
              xmlns:tns="ir.test.mostafa.wsdl"
@@ -10,7 +13,6 @@
              xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
              xmlns="http://schemas.xmlsoap.org/wsdl/">
     <!-- definition of datatypes -->
-
     <types>
         <schema targetNamespace="ir.test.mostafa.xsd" xmlns="http://www.w3.org/2000/10/XMLSchema">
             <element name="name">
