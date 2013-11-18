@@ -1,0 +1,4 @@
+abcd_test:
+    resource: "@AbcdTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
