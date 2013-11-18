@@ -1,3 +1,7 @@
 abcd_test_homepage:
     pattern:  /
-    defaults: { _controller: AbcdTestBundle:Default:index }
+    defaults: { _controller: "AbcdTestBundle:Default:index" }
+
+abcd_test_service:
+    pattern:  /soap
+    defaults: { _controller: "AbcdTestBundle:HelloService:index" }
